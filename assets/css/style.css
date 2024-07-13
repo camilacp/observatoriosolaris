@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Pathway+Gothic+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BARRA DE NAVEGACIÓN */
+
+.nav-container {
+    position: fixed;
+    background-color: transparent;
+    backdrop-filter: blur(7px);
+}
+
+.nav__text {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 1.3rem;
+    text-shadow: 2px 2px grey;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.logo__img {
+    width: 5rem;
+}
+
+.logo__img--text {
+    width: 9rem;
+}
+
+.buttons {
+    width: 40%;
+}
+
+.buttons__container {
+    width: 70%;
+}
+
+.redes__container {
+    width: 20%;
+}
+
+.buttons__element {
+    color: #FAFBFD;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.buttons__icon {
+    font-size: 1.7rem;
+    text-shadow: 2px 2px grey; 
+}
+
+/* HEADER HERO SECTION INDEX Y OTRAS PAGINAS */
+.header__index {
+    height: 100vh;
+    background-image: url(../img/observatorio-noche-original.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #FAFBFD;
+    display: flex;
+    justify-content: center;
+}
+
+.principal__section {
+    padding-top: 24%;
+    display: flex;
+    flex-direction: column;
+}
+
+.principal__title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 3.7rem;
+    text-align: left;
+}
+
+.principal__invitation {
+    color: #FAFBFD;
+    font-size: 2rem;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-weight: 500;
+}
+
+.container__principal-section--buttons{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.principal__button {
+    background-color: #8B83B3;
+    color: #FAFBFD;
+    text-decoration: none; 
+    border-radius: 10px;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.principal__button:hover, .contactanos__btn:hover {
+    background-color: #723989;
+    color: #FAFBFD;
+}
+
+/* HEADER POLITICAS */
+
+.header__politicas {
+    background-color: #0E0F11;
+}
+
+.principal__title--politicas {
+    color: #FAFBFD;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    font-size: 2.2rem;
+    text-align: center;
+}
+
+
+/* CONTENIDO DE LA PAGINA */
+.main__index {
+    background-color: #0E0F11;
+}
+
+.main__politicas {
+    background-color: #FAFBFD;
+}
+
+h2 {
+    font-size: 2.7rem;
+    font-family: "Pathway Gothic One", sans-serif;
+}
+
+p {
+    font-size: 1.1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* QUIENES SOMOS / SOBRE NOSOTROS */
+.quienes-somos__img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.qs-icons-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-color: #FAFBFD;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.quienes-somos__icon {
+    color: #FAFBFD;
+    font-size: 3rem;
+}
+
+.border-circle {
+    border-radius: 50%;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 13px;
+    height: 13px;
+    background-color: #8B83B3;
+}
+
+.carousel-indicators {
+    position: relative;
+}
+
+.quienes-somos__minisection {
+    background-color: #8B83B3;
+}
+
+.quienes-somos__title--minisection {
+    font-family: "Pathway Gothic One", sans-serif;
+    font-size: 1.6rem;
+    color: #fff;
+}
+
+/* SERVICIOS */
+.clock-icon {
+    font-size: 1.45rem;
+}
+
+.tarifas-horarios {
+    background-image: url(../img/tarifas-horarios.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.table {
+    table-layout: fixed;
+    width: 95%;
+    color: #fff;
+    border: #fff;
+    border-width: 3px;
+}
+
+.tarifas-horarios__content {
+    backdrop-filter: blur(40px);
+    width: 60%;
+    border-radius: 10px;
+    color: #fff
+}
+
+/* CONTACTO */
+
+.map__container {
+    height: 25rem;
+}
+
+.map__google {
+    width: 100%;
+    height: 100%;
+}
+
+
+.contactanos__btn {
+    background-color: #8B83B3;
+    color: #fff;
+}
+
+/* NEWSLETTER */
+.newsletter {
+    background-color: #8B83B3;
+    color: #FAFBFD;
+}
+
+.newsletter__input {
+    border-radius: 10px 0px 0px 10px;
+}
+
+.newsletter__btn {
+    background-color: #723989;
+    border: #FAFBFD;
+    color: #FAFBFD;
+    border-radius: 0px 10px 10px 0px;
+    width: 4rem;
+}
+
+.newsletter__btn:hover {
+    background-color: #723976;
+}
+
+/* TERMINOS Y CONDICIONES // CANCELACIÓN */
+.main__politicas--section {
+    padding: 2% 10%;
+}
+
+.main__politicas--title{
+    font-weight: 600;
+    font-size: 2.1rem;
+}
+
+.main__politicas--content {
+    padding: 2% 3%;
+}
+
+
+/* FOOTER */
+
+.footer__title {
+    font-family: "Pathway Gothic One", sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.footer__text {
+    font-family: "Pathway Gothic One", sans-serif;
+    font-size: 1.2rem;
+}
+
+footer {
+    background-color: #0E0F11;
+}
+
+@media (max-width: 820px) {
+    .principal__section {
+        padding-top: 40%;
+    }
+
+    .principal__title {
+        font-weight: 600;
+        font-size: 2.5rem;
+        text-align: center;
+        padding-top: 20%;
+    }
+
+    .principal__invitation {
+        text-align: center;
+        font-size: 1.7rem;
+        padding-top: 1rem;
+    }
+
+    .container__principal-section--buttons{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .qs-icons-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .quienes-somos__text {
+        text-align: center;
+    }
+
+    .ubi__container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .qs-icons-section {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-color: #8B83B3;
+    }
+
+    .tarifas-horarios__content {
+        width: 95%;
+    }
+
+    .footer__container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer__container--img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer__container--followus {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+    }
+}
